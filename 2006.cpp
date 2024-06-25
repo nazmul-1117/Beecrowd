@@ -17,20 +17,5 @@ int32_t main(){
     	if(a == T) count++;
     }
 
-    // for (int i = 0; i < 5; ++i)
-    // {
-    // 	int a;
-    // 	cin>>a;
-    // 	if(a == T) count++;
-    // }
-
-    cout << count << endl;
-
-
-
-
-
-
-
-  
+    cout << count << endl; 
 }
