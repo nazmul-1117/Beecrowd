@@ -8,13 +8,7 @@ int32_t main(){
     cin.tie(NULL);
     cout.tie(NULL);
 
-    string str;
-    getline(cin, str);
-
-    if(str.length() <= 140){
-    	cout << "TWEET" <<endl;
-
-    }else{
-    	cout << "MUTE" <<endl;
-    } 
+    uint16_t h, p;
+    cin >> h >> p;
+    cout << fixed << setprecision(2) << (float)h/p << endl;
 }
